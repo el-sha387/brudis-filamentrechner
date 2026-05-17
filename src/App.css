@@ -229,11 +229,17 @@ select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.o
 .sheet {
   background: var(--card);
   border-radius: 20px 20px 0 0;
-  padding: 0 20px calc(24px + var(--safe-b));
+  padding: 0 20px calc(32px + var(--safe-b));
   width: 100%;
   max-height: 92dvh;
   overflow-y: auto;
   animation: slideUp 0.28s cubic-bezier(0.32,0.72,0,1);
+}
+.sheet .btn-primary:last-child {
+  position: sticky;
+  bottom: calc(8px + var(--safe-b));
+  z-index: 10;
+  box-shadow: 0 -8px 16px var(--card);
 }
 .sheet-handle { width: 36px; height: 4px; background: var(--border); border-radius: 2px; margin: 12px auto 20px; }
 .sheet-title { font-size: 18px; font-weight: 700; margin-bottom: 20px; color: var(--text); }

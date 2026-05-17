@@ -595,9 +595,8 @@ function EinstellungenScreen({ strompreis, setStrompreis, leistung, setLeistung 
         </div>
 
         <div className="card" style={{ textAlign: 'center', padding: '20px' }}>
-          <div style={{ fontSize: 11, color: 'var(--text-3)', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 6 }}>gebioMized GmbH · Münster</div>
           <div style={{ fontSize: 15, fontWeight: 700 }}>3D-Druck Kostenrechner</div>
-          <div style={{ fontSize: 12, color: 'var(--text-3)', marginTop: 4 }}>Bambu Lab P1S · v1.0</div>
+          <div style={{ fontSize: 12, color: 'var(--text-3)', marginTop: 4 }}>Bambu Lab P1S · v1.0 · El Shado</div>
         </div>
       </div>
     </div>
@@ -645,8 +644,7 @@ export default function App() {
           <div className="page-sub">Bambu Lab P1S</div>
         </div>
         <div style={{ fontSize: 11, color: 'var(--text-3)', textAlign: 'right', lineHeight: 1.4 }}>
-          <div style={{ fontWeight: 600, color: 'var(--primary)', fontSize: 12 }}>gebioMized</div>
-          <div>gebiomized.de</div>
+          <div style={{ fontWeight: 600, color: 'var(--primary)', fontSize: 12 }}>El Shado</div>
         </div>
       </div>
 
